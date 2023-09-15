@@ -1,13 +1,13 @@
 import Constants from "expo-constants";
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
+import { SafeAreaView, StyleSheet, Text } from "react-native";
 
 export default function App() {
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container}>
       <Text>Open up App.js to start working on your app!</Text>
       <StatusBar style="auto" backgroundColor="violet" hidden={false} />
-    </View>
+    </SafeAreaView>
   );
 }
 
